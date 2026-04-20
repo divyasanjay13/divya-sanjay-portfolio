@@ -10,7 +10,7 @@
   --radius:16px;--nav-h:72px;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-html{scroll-behavior:smooth;}
+html{scroll-behavior:smooth; overflow-x:hidden !important;}
 body{background:var(--cream);color:var(--ink);font-family:'DM Sans',sans-serif;font-weight:300;line-height:1.7;overflow-x:hidden;cursor:none;}
 img{max-width:100%;height:auto;}
 
