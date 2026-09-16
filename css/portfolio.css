@@ -180,6 +180,13 @@ a{
 .pcat{font-family:'DM Mono',monospace;font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--teal-l);margin-bottom:6px;}
 .pname{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:600;color:var(--cream);margin-bottom:8px;line-height:1.2;}
 .pdesc{font-size:.79rem;color:rgba(247,244,239,.55);line-height:1.6;margin-bottom:12px;flex:1;}
+.pdesc {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .ptags{display:flex;flex-wrap:wrap;gap:4px;margin-top:auto;}
 .ptag{font-size:.6rem;padding:3px 8px;border:1px solid rgba(42,157,143,.3);border-radius:4px;color:var(--teal-l);}
 .swiper-button-next,.swiper-button-prev{color:var(--teal) !important;background:rgba(255,255,255,.07);border-radius:50%;width:44px !important;height:44px !important;transition:background .25s;}
